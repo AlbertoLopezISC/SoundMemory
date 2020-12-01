@@ -109,7 +109,7 @@ class AgregarCartasFragment : Fragment() {
                         applicacion?.room?.descripcionDao()?.updateCardById(carta?.id, txtDescripcion.text.toString(), filePath)
                     }.invokeOnCompletion {
                         Toast.makeText(context, "Listo, se ha editado la carta.",Toast.LENGTH_SHORT).show()
-                        activity?.finish()
+                        findNavController().navigateUp()
                     }
 
                 }
