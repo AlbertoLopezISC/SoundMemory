@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/menuJuego"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:contentDescription="@string/menu_de_dificultad_veamos_de_que_eres_capaz">
+
+
+    <Button
+        android:id="@+id/botonFacil"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="208dp"
+        android:background="#ffffff"
+        android:contentDescription="@string/strBtnNivelFacilDescripcion"
+        android:tag="@string/strBtnNivelFacil"
+        android:text="@string/strBtnNivelFacil"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="fácil" />
+
+    <TextView
+        android:id="@+id/textViewInstrucciones"
+        android:layout_width="242dp"
+        android:layout_height="34dp"
+        android:contentDescription="@string/strSeleccionaDificultadDescripcion"
+        android:tag="@string/strSeleccionaDificultad"
+        android:text="@string/strSeleccionaDificultad"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/botonFacil"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.236"
+        tools:text="Seleccionar Dificultad" />
+
+    <Button
+        android:id="@+id/botonNormal"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:contentDescription="@string/strBtnNivelMedioDescripcion"
+        android:text="@string/strBtnNivelMedio"
+        app:layout_constraintBottom_toTopOf="@+id/botonDificil"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/botonFacil" />
+
+    <Button
+        android:id="@+id/botonDificil"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="64dp"
+        android:background="#ffffff"
+        android:contentDescription="@string/strBtnNivelDificilDescripcion"
+        android:tag="@string/strBtnNivelDificil"
+        android:text="@string/strBtnNivelDificil"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="Dificil" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

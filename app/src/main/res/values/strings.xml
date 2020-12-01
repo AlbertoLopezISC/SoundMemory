@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">Sound Memory</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+
+    <string name="tutor">Cesar Eduardo Velazquez Amador</string>
+    <string name="desarrollador1">Alberto de Jesús López López</string>
+    <string name="desarrollador2">Miguel González Salas</string>
+    <string name="desarrollador3">José de Jesús Padilla Guzman</string>
+
+    <string name="bienvenidos_a_nuestro_juego">Bienvenidos a nuestro juego!</string>
+
+    <string name="strBtnMenuPrincipalCartasDescripcion">Cartas, aqui podras hacer cambios en el mazo</string>
+    <string name="strBtnCartas">Cartas</string>
+    <string name="strImgLogoDescripcion">Nuestro logo.</string>
+    <string name="jugar">Jugar</string>
+    <string name="jugarDescripcion">Comenzar a jugar</string>
+
+
+    <string name="salir">Salir</string>
+    <string name="instrucciones">Instrucciones</string>
+    <string name="regresar">Regresar</string>
+    <string name="juego">Juego</string>
+
+    <string name="carta5">Carta5</string>
+    <string name="carta8">Carta8</string>
+    <string name="carta1">Carta1</string>
+    <string name="carta7">Carta7</string>
+    <string name="carta4">Carta4</string>
+    <string name="carta6">Carta6</string>
+    <string name="carta2">Carta2</string>
+    <string name="carta3">Carta3</string>
+
+    <string name="boton_jugar">Boton jugar</string>
+
+    <string name="regresar_menu_de_inicio">Regresar menu de inicio</string>
+
+    <string name="strSeleccionaDificultadDescripcion">Seleccionar Dificultad, vienen tres opciones. Facil, normal y dificil</string>
+    <string name="strSeleccionaDificultad">Seleccionar Dificultad</string>
+    <string name="strBtnNivelFacilDescripcion">Fácil, para los principiantes con 6 cartas.</string>
+    <string name="strBtnNivelFacil">Fácil</string>
+    <string name="strBtnNivelMedioDescripcion">Normal, para quienes saben jugar con 8 cartas.</string>
+    <string name="strBtnNivelMedio">Normal</string>
+    <string name="strBtnNivelDificilDescripcion">dificil, para los que quieran un reto, con 12 cartas.</string>
+    <string name="strBtnNivelDificil">Difícil</string>
+
+    <string name="menuCartasActivity">Menú cartas.</string>
+    <string name="boton_eliminar">Boton eliminar</string>
+    <string name="eliminar">Eliminar una carta</string>
+    <string name="agregar">Agregar una carta</string>
+    <string name="editarCartasBtn">Editar cartas</string>
+    <string name="Ins_agregar">¿Que deseas hacer?</string>
+    <string name="strImgSeleccionada">Ésta es la imagen seleccionada.</string>
+    <string name="strBtnAgregarImagenDescripcion">Agrega una nueva imagen a la carta.</string>
+    <string name="strTxtDescripcion">Agrega la descripción que se leerá.</string>
+    <string name="strBtnGuardarDescripcion">Guardar la configuración de la carta.</string>
+    <string name="strBtnGuardar">Guardar Carta.</string>
+    <string name="strBtnEliminarCarta">Eliminar la carta seleccionada</string>
+    <string name="strBtnAgregarImagen">Cargar imagen</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="menu_de_inicio_pantalla_principal">Menu de inicio, Pantalla principal</string>
+    <string name="pantalla_de_instrucciones_sera_rapido_y_sencillo_el_comenzar_a_jugar">Pantalla de instrucciones sera rapido y sencillo el comenzar a jugar</string>
+    <string name="menu_de_dificultad_veamos_de_que_eres_capaz">Menu de dificultad, veamos de que eres capaz.</string>
+    <string name="comienza_a_jugar_selecicona_una_carta_para_ver_su_contenido">Comienza a Jugar! Selecicona una carta para ver su contenido</string>
+    <string name="cambiarcolor">CambiarColor</string>
+    <string name="siguiente">Siguiente</string>
+    <string name="sera_facil_comenzar_a_jugar_primero_veamos_los_movimientos_que_puedes_hacer_para_este_tutorial_necesitas_tener_activo_talkback_presiona_siguiente_para_continuar_el_boton_esta_localizado_abajo_a_la_derecha">Sera Facil comenzar a jugar, primero veamos los movimientos que puedes hacer. Para este tutorial necesitas tener activo TalkBack.
+        Presiona siguiente para continuar, el boton esta localizado abajo a la derecha. O tambien puedes navegar por la pantalla arrastrando tu dedo.</string>
+    <string name="carta_numero_1">Carta Numero 1</string>
+    <string name="carta_numero_2">Carta numero 2</string>
+    <string name="informacion_basica_de_la_aplicacion">Informacion basica de la aplicacion.</string>
+    <string name="acerca_de">Acerca de...</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="acerca_de_descripcion">Somos un grupo de jovenes estudiantes acesordados por el maestro  Cesar Eduardo  dispuestos a ayudar, para ello usamos nuestros conocimientos sobre el area de programación. Esto con el fin de poder hacer una herramienta que   permita agilizar  la mente de  los niños con discapacidad visual.</string>
+</resources>

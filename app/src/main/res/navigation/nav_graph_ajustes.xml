@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_ajustes"
+    app:startDestination="@id/menuAjustesFragment">
+
+    <fragment
+        android:id="@+id/menuAjustesFragment"
+        android:name="mx.uaa.soundmemory.MenuAjustesFragment"
+        android:label="MenuAjustesFragment" >
+        <action
+            android:id="@+id/action_menuAjustesFragment_to_acercaDeFragment"
+            app:destination="@id/acercaDeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/acercaDeFragment"
+        android:name="mx.uaa.soundmemory.AcercaDeFragment"
+        android:label="AcercaDeFragment" >
+        <action
+            android:id="@+id/action_acercaDeFragment_to_menuAjustesFragment"
+            app:destination="@id/menuAjustesFragment" />
+    </fragment>
+</navigation>

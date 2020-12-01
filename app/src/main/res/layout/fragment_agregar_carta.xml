@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/EditarCartas"
+    tools:context=".AgregarCartasFragment"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/ponerimagen"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:src="@android:drawable/ic_menu_camera"/>
+    <Button
+        android:padding="4dp"
+        android:id="@+id/button_cargarimagen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="24dp"
+        android:background="#FFFFFF"
+        android:contentDescription="@string/strBtnAgregarImagenDescripcion"
+        android:layout_gravity="center"
+        android:text="@string/strBtnAgregarImagen"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="Ingresa una descripción"
+        android:textSize="25dp"
+        />
+    <EditText
+        android:id="@+id/inputdescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:autofillHints=""
+        android:contentDescription="@string/strTxtDescripcion"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        tools:ignore="RtlCompat" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:padding="4dp"
+            android:id="@+id/buttonChido"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:contentDescription="@string/strBtnGuardarDescripcion"
+            android:layout_gravity="center"
+            android:text="@string/strBtnGuardar"
+            android:layout_margin="20dp"
+            />
+
+        <Button
+            android:padding="4dp"
+            android:id="@+id/btnEliminarCarta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:background="#FFFFFF"
+            android:contentDescription="@string/strBtnEliminarCarta"
+            android:text="Eliminar"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/secondFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:contentDescription="Pantalla instrucciones"
+    tools:context=".SecondFragment">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="*"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TableRow
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_span="2"
+                android:text="@string/instrucciones"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textAlignment="center"
+                android:gravity="center_horizontal" />
+        </TableRow>
+
+        <TableRow
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/textViewInstrucciones"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10sp"
+                android:layout_span="2"
+                android:text="@string/sera_facil_comenzar_a_jugar_primero_veamos_los_movimientos_que_puedes_hacer_para_este_tutorial_necesitas_tener_activo_talkback_presiona_siguiente_para_continuar_el_boton_esta_localizado_abajo_a_la_derecha"
+                tools:text="Sera Facil comenzar a jugar, primero veamos los movimientos que puedes hacer. Para este tutorial necesitas tener activo TalkBack. Presiona siguiente para continuar, el boton esta localizado abajo a la derecha." />
+        </TableRow>
+
+        <TableRow
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/carta1Instrucciones"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/tapa2"
+                android:contentDescription="@string/carta_numero_1"
+                android:visibility="invisible" />
+
+            <ImageButton
+                android:id="@+id/carta2Instrucciones"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/tapa2"
+                android:contentDescription="@string/carta_numero_2"
+                android:visibility="invisible" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_weight=".5"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/button_regresar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:contentDescription="@string/regresar_menu_de_inicio"
+                android:text="@string/regresar" />
+
+            <Button
+                android:id="@+id/button_siguiente"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:contentDescription="@string/siguiente"
+                android:text="@string/siguiente" />
+
+        </TableRow>
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

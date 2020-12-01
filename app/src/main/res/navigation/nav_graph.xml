@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/FirstFragment">
+
+    <fragment
+        android:id="@+id/FirstFragment"
+        android:name="mx.uaa.soundmemory.FirstFragment"
+        tools:layout="@layout/fragment_first">
+
+        <action
+            android:id="@+id/action_FirstFragment_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
+        <action
+            android:id="@+id/action_FirstFragment_to_menuJuegoFragment"
+            app:destination="@id/menuJuegoFragment" />
+        <action
+            android:id="@+id/action_FirstFragment_to_MenuCartasFragment"
+            app:destination="@id/MenuCartasFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/SecondFragment"
+        android:name="mx.uaa.soundmemory.SecondFragment"
+        tools:layout="@layout/fragment_second">
+
+        <action
+            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/menuJuegoFragment"
+        android:name="mx.uaa.soundmemory.MenuJuegoFragment"
+        android:label="MenuJuegoFragment" >
+        <action
+            android:id="@+id/action_menuJuegoFragment_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+        <action
+            android:id="@+id/action_menuJuegoFragment_to_jugar"
+            app:destination="@id/jugarFragment" />
+    </fragment>
+    <activity
+        android:id="@+id/jugarFragment"
+        android:name="mx.uaa.soundmemory.jugar"
+        android:label="activity_jugar"
+        tools:layout="@layout/activity_jugar" />
+    <fragment
+        android:id="@+id/MenuCartasFragment"
+        android:name="mx.uaa.soundmemory.MenuCartasFragment"
+        android:label="MenuCartasFragment"
+        tools:layout="@layout/activity_menu_cartas">
+        <action
+            android:id="@+id/action_MenuCartasFragment_to_AgregarCartasFragment"
+            app:destination="@id/AgregarCartasFragment" />
+        <action
+            android:id="@+id/action_MenuCartasFragment_to_editarCartasFragment"
+            app:destination="@id/editarCartasFragment" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/AgregarCartasFragment"
+        android:name="mx.uaa.soundmemory.AgregarCartasFragment"
+        android:label="AgregarCartasFragment"
+        tools:layout="@layout/fragment_agregar_carta">
+
+        <action
+            android:id="@+id/action_AgregarCartasFragment_to_MenuCartasFragment"
+            app:destination="@id/MenuCartasFragment" />
+        <action
+            android:id="@+id/action_AgregarCartasFragment_to_editarCartasFragment"
+            app:destination="@id/editarCartasFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/editarCartasFragment"
+        android:name="mx.uaa.soundmemory.EditarCartasFragment"
+        android:label="EditarCartasFragment" >
+        <action
+            android:id="@+id/action_editarCartasFragment_to_AgregarCartasFragment"
+            app:destination="@id/AgregarCartasFragment" />
+        <action
+            android:id="@+id/action_editarCartasFragment_self"
+            app:destination="@id/editarCartasFragment" />
+    </fragment>
+</navigation>
